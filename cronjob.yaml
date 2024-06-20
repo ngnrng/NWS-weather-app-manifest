@@ -10,7 +10,7 @@ spec:
         spec:
           containers:
           - name: nws-forecast
-            image: gerops/nws-app:v0.0.2
+            image: gerops/nws-app:
             imagePullPolicy: IfNotPresent
           restartPolicy: OnFailure
 ---
