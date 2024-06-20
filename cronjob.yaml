@@ -10,7 +10,7 @@ spec:
         spec:
           containers:
           - name: nws-forecast
-            image: karateexplosion/nws-forecast-data:v0.0.1
+            image: gerops/nws-app:v0.0.1
             imagePullPolicy: IfNotPresent
           restartPolicy: OnFailure
 ---
