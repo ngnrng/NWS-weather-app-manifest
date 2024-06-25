@@ -13,4 +13,7 @@ spec:
             image: karateexplosion/nws-forecast-data:db45abb
             imagePullPolicy: IfNotPresent
           restartPolicy: OnFailure
+          imagePullSecrets:
+          - name: docker-secret
+          
 ---
