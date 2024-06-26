@@ -10,7 +10,7 @@ spec:
         spec:
           containers:
           - name: nws-forecast
-            image: karateexplosion/nws-forecast-data:1942f78
+            image: karateexplosion/nws-forecast-data:55ff662
             imagePullPolicy: IfNotPresent
           restartPolicy: OnFailure
           imagePullSecrets:
